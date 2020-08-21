@@ -624,7 +624,7 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #fff;
-  padding: 80px 20px;
+  padding: 20px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -668,6 +668,60 @@ section {
 .services .icon-box:hover h4 a {
   color: #c72323;
 }
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .card-box {
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 20px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  height: 450px;
+}
+
+.services .card-box .card {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+}
+
+.services .card-box .card i {
+  color: #c72323;
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+.services .card-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .card-box h4 a {
+  color: #5f687b;
+  transition: ease-in-out 0.3s;
+}
+
+.services .card-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .card-box:hover {
+  border-color: #eaecef;
+}
+
+.services .card-box:hover h4 a {
+  color: #c72323;
+}
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
